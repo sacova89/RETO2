@@ -6,8 +6,13 @@ using UnityEngine.UI;
 
 public class lifeManager : MonoBehaviour
 {
-    public static int lifes = 4;
+    public static int lifes = 3;
     public static bool endSignal = false;
+      // Referencias a los paneles en el Inspector de Unity
+ 
+    public GameObject gameOverPanel;
+   
+
     void Start()
     {
         gameObject.transform.parent.GetComponent<Image>().color = new Color(0, 0, 0, 0);
@@ -48,6 +53,9 @@ public class lifeManager : MonoBehaviour
             gameObject.transform.GetChild(3).gameObject.SetActive(true);
             gameObject.transform.GetChild(4).gameObject.SetActive(true);
             gameObject.transform.GetChild(5).gameObject.SetActive(true);
+                        // Muestra el panel de Game Over y detiene el tiempo si es necesario
+            gameOverPanel.SetActive(true);
+            Time.timeScale = 0f;
             endSignal = true;
         }
     }
