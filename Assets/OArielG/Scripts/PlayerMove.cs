@@ -10,7 +10,7 @@ public class PlayerMove : MonoBehaviour
 
     private float speed = 1.5f;
     private bool doubleJump = true;
-    private float jumping = 2.5f;
+    public float jumping = 2.5f;
     public float inicioX = 0f;
     public float inicioY = 0f;
     private bool appearingActive = true;
