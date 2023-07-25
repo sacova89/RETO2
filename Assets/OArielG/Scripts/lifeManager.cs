@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class lifeManager : MonoBehaviour
 {
-    public static int lifes = 3;
+    public static int lifes = 4;
     public static bool endSignal = false;
       // Referencias a los paneles en el Inspector de Unity
  
