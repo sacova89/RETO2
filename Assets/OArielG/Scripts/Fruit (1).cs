@@ -18,7 +18,11 @@ public class Fruit: MonoBehaviour
             sonido.Play();
             GetComponent<SpriteRenderer>().enabled = false;
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
+            AlphaScore.score+=1;
             Destroy(gameObject, 0.5f);
+
         }
+
+
     }
 }

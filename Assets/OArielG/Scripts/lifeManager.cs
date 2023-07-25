@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class lifeManager : MonoBehaviour
 {
-    public static int lifes = 3;
+    public static int lifes = 4;
     public static bool endSignal = false;
       // Referencias a los paneles en el Inspector de Unity
  
@@ -55,7 +55,6 @@ public class lifeManager : MonoBehaviour
             gameObject.transform.GetChild(5).gameObject.SetActive(true);
                         // Muestra el panel de Game Over y detiene el tiempo si es necesario
             gameOverPanel.SetActive(true);
-            Time.timeScale = 0f;
             endSignal = true;
         }
     }
