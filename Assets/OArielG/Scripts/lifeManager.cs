@@ -55,7 +55,7 @@ public class lifeManager : MonoBehaviour
             gameObject.transform.GetChild(5).gameObject.SetActive(true);
                         // Muestra el panel de Game Over y detiene el tiempo si es necesario
             gameOverPanel.SetActive(true);
-            Time.timeScale = 0f;
+            
             endSignal = true;
         }
     }
