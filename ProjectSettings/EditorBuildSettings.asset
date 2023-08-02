@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/OArielG/Scenes/GAME OVER.unity
     guid: 4fdb4bedc77707b458469de159b08b81
+  - enabled: 1
+    path: Assets/OArielG/Scenes/FELICITACIONES.unity
+    guid: 4d3b221fff001ea499674c0c23b42ef2
   m_configObjects: {}
