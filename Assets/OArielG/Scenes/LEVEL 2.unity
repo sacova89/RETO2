@@ -9834,18 +9834,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 7243177800817885642}
-        m_TargetAssemblyTypeName: ResetLevel, Assembly-CSharp
-        m_MethodName: resetScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 7243177800817885644}
         m_TargetAssemblyTypeName: PauseController, Assembly-CSharp
         m_MethodName: Resume
@@ -12520,7 +12508,6 @@ GameObject:
   - component: {fileID: 4777575885610794891}
   - component: {fileID: 306026796585757240}
   - component: {fileID: 7243177800817885643}
-  - component: {fileID: 7243177800817885642}
   - component: {fileID: 7243177800817885641}
   - component: {fileID: 7243177800817885644}
   m_Layer: 5
@@ -12540,18 +12527,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e2a07a354e36e5b41ae94e439de62cef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &7243177800817885642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7243177800817885640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e57ebf8ac8e25a4eb1abe937570534a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &7243177800817885643
