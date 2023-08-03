@@ -2,7 +2,7 @@
 
 ## Integrantes: 
 ### Marilyn Ocampo Beleño
-### Rosmary Fragua
+### Rosmary Fragua Niño
 ### Santiago Acosta Covaleda
 
 ## Descripción:
